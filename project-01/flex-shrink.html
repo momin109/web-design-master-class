@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 60%;
+            height: 500px;
+            background-color: gray;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+
+            /* align-items: start; */
+
+            /* align-items: last baseline; */
+
+            align-items: baseline;
+            gap: 1rem;
+
+
+
+
+
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+        }
+
+        .red {
+            background-color: red;
+            order: 2;
+            flex-grow: 5;
+            /* order: 2; korle red zaiga green ta chole asbe  */
+        }
+
+        .green {
+            background-color: green;
+            flex-grow: 2;
+        }
+
+        .yellow {
+            background-color: yellow;
+            flex-shrink: 0;
+            /* flex-shrink: 0; dea karone zoto tuku paibe oituku nebo ar be na ba  */
+            /* flex-grow: 3 zokhon korlam 1 zaiga zoto tuku ache tar tin gun besi pabe */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box red">1</div>
+        <div class="box green">2</div>
+        <div class="box yellow">3</div>
+        <div class="box red">1</div>
+        <div class="box green">2</div>
+        <div class="box yellow">3</div>
+        <div class="box green">3</div>
+        <div class="box yellow">3</div>
+
+    </div>
+
+</body>
+
+</html>

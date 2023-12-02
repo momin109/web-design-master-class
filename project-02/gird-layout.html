@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+
+            margin: 0 auto;
+            padding: 20px;
+            justify-content: center;
+            display: grid;
+            /* grid-template-columns: 100px 200px 300px; ai vabe kaz kora tik na
+            grid-template-rows: 100px 100px; */
+            /* grid-template-columns: 1fr 2fr 3fr; */
+            /* grid-template-columns: repeat(4, 1fr); */
+            grid-template-columns: repeat(4, 200px);
+            grid-template-rows: repeat(3, 200px);
+
+            gap: 10px;
+        }
+
+        .box {
+            /* width: 100px;
+            height: 100px; */
+            border-radius: 5px;
+
+        }
+
+        .item1 {
+            background-color: red;
+            grid-column-start: 3;
+            /* grid-column-start: 3; korel 3 no. teke start korbe*/
+        }
+
+        .item2 {
+            background-color: green;
+
+        }
+
+        .item3 {
+            background-color: yellow;
+
+        }
+
+        .item4 {
+            background-color: rgb(56, 245, 169);
+        }
+
+        .item5 {
+            background-color: rgb(101, 33, 197);
+
+        }
+
+        .item6 {
+            background-color: rgb(217, 61, 149);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box item1">1</div>
+        <div class="box item2">2</div>
+        <div class="box item3">3</div>
+        <div class="box item4">4</div>
+        <div class="box item5">5</div>
+        <div class="box item6">6</div>
+
+
+    </div>
+
+</body>
+
+</html>
