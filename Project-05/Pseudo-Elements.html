@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading {
+            text-align: center;
+            position: relative;
+        }
+
+        h1::before,
+        h1::after {
+            /*h1 conten ar age kono kichu set korte chaile before debo*/
+            /*h1 conten ar pore kono kichu set korte chaile after debo*/
+            content: '';
+            display: block;
+            width: 50px;
+            height: 5px;
+            background-color: red;
+            position: absolute;
+            top: 50%;
+        }
+
+        h1::before {
+            left: 25%;
+        }
+
+        h1::after {
+            right: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: 20px auto; width: 50%;">
+        <h1 class="heading">hello world</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusantium voluptate assumenda architecto,
+            inventore.</p>
+        <ol>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ol>
+    </div>
+</body>
+
+</html>
