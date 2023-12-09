@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #198754;
+
+}
+
+.lis-item {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}

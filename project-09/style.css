@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Nova+Square&family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    min-height: 100wh;
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(1, 1, 39);
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.brund-section {
+    display: flex;
+    align-items: center;
+}
+
+.brund-logo {
+    margin-right: 1rem;
+}
+
+.brund-logo span {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.title-name {
+    font-size: 25px;
+}
+
+.brund-title a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.brund-title h1 {}
+
+
+
+.main-menu {
+    display: flex;
+
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.right-menu {
+    display: flex;
+    align-items: center;
+    /* margin-left: auto; */
+}
+
+.right-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
